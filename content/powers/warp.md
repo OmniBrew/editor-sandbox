@@ -66,3 +66,5 @@ __At Higher Levels__: When you cast this power using a power slot of 3rd level o
 each slot level above the 2nd.
 
 Added by the sandbox test.
+
+More text from the sandbox test.
