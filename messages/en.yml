@@ -1,0 +1,2109 @@
+abilities:
+  cha:
+    label: charisma
+    title: Charisma
+    abbr: CHA
+  con:
+    label: constitution
+    title: Constitution
+    abbr: CON
+  dex:
+    label: dexterity
+    title: Dexterity
+    abbr: DEX
+  int:
+    label: intelligence
+    title: Intelligence
+    abbr: INT
+  str:
+    label: strength
+    title: Strength
+    abbr: STR
+  wis:
+    label: wisdom
+    title: Wisdom
+    abbr: WIS
+abi_feature:
+  at_level: When you reach {level}, | When you reach {level}, and again at {and_list} level,
+  text: "{at_level} you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature."
+  feat_text: Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.
+ability_bonus_all: +1 to all ability scores
+ability_score_increase_title: Ability Score Increase
+about_title: About
+aboutpage:
+  about_me5e_title: About Mass Effect 5e
+  about_text: "Mass Effect 5e is a fan-made, D&D 5th Edition homebrew project that started in early 2016. The core ruleset was created by Luke Aeschleman with collaboration and editing by Hugh Thompson. Luke continues to maintain the website, but is no longer responsible for content changes or updates. Instead, this has become a \"living homebrew\", in which the community provides feedback and the following Discord moderators assess and make changes as necessary."
+  bug_report: "Please report using the {channel} channel on {discord}"
+  bug_text: Found a bug or error on the website, please report it!
+  bug_title: Found a bug?
+  contributors_title: Contributors
+  contributors_text: Mass Effect 5e has had dozens of people who've contributed in a variety of ways, both large and small. The following list represents the people who've contributed to the project in a major way, be it helping moderate the discord server or subreddit, site and character sheet design, or being actively involved in the development of the game. Not everyone on this list is still actively involved and these people are presented in no particular order.
+  current_title: Content Developers & Discord Moderators
+  former_contributors_title: Former Contributors
+  races_shoutout: "Special shout-out to StrayChowChow for letting us use the descriptions and traits from {races}! If you can't convince your group to play in a sci-fi setting and want to bring a little Mass Effect to your D&D 5e game, you should definitely check it out!"
+  shoutouts_title: Shout Outs
+  shoutouts_text: In addition to the above, the system has had many contributors who've added invaluable feedback, shared ideas, created assets, playtested, and much more. If we've missed anyone, it was not on purpose!
+  image_attributions_title: Image Attributions
+  image_attributions_text: Any images not listed were either created by Mass Effect 5e contributors or come from the the Mass Effect Wiki.
+  all_others: and any/all the others in the Discord and Reddit community who have contributed ideas and/or words of motivation!
+  roles:
+    creator: Creator, Website Developer
+    editor: Editor
+    discord: Discord Moderator
+    reddit: Subreddit Moderator
+    developer: Website Developer
+    content: Content Developer
+    translator: Translator {lang}
+    designer: Graphics Designer
+advancement_options_title: Advancement Options
+age_title: Age
+alignment_title: Alignment
+alignments:
+  lg: lawful good
+  ln: lawful neutral
+  le: lawful evil
+  ng: neutral good
+  nn: neutral
+  ne: neutral evil
+  cg: chaotic good
+  cn: chaotic neutral
+  ce: chaotic evil
+  u: unaligned
+  tracker: same as the Tracker
+all_title: All
+aoe_types:
+  sphere: sphere
+  cone: cone
+  cylinder: cylinder
+  cube: cube
+  line: line
+appendix_title: Appendix
+ac_title: Armor Class
+ac_abbr: AC
+armor: armor | armor
+armor_item_subtitle: "{rarity} {armorType}, {placement}"
+armor_placements:
+  head: head
+  head_title: Head
+  chest: chest
+  chest_title: Chest
+  body_armor: body armor (chest, legs, and arms)
+  body_armor_title: Body Armor
+  legs_title: Legs
+  legs: legs
+  arms: arms
+  arms_title: Arms
+armor_placement_title: Placement
+armor_title: Armor | Armor
+armor_type_title: Armor Type
+armor_types:
+  heavy: Heavy
+  light: Light
+  medium: Medium
+  heavy_armor: heavy armor
+  light_armor: light armor
+  medium_armor: medium armor
+  heavy_armor_title: Heavy Armor
+  light_armor_title: Light Armor
+  medium_armor_title: Medium Armor
+assets_title: Assets
+assetspage:
+  file_use_note: "Please note that you have view-only access to these documents. If you would like to edit a document (such as using a character sheet for your own character), you will need to make a copy of the document: File > Make a copy. If that option is greyed out, you need to sign into your google account to make a copy in your personal Google Drive."
+  items:
+    pdf:
+      title: Player's Manual PDF
+      description: Using Homebrewery, we've converted this homebrew into a printable PDF. You can download the whole thing, and even make your own spin-offs.
+    power_cards:
+      title: Power Cards
+      description: Need power cards at your table?
+    character_sheet:
+      title: Character Sheets
+      description: A variety of character sheet options are available, many created and maintained by the community.
+    missions:
+      title: Pre-written Missions
+      description: Only a few are available to date. We welcome additional submissions from the community on Reddit or Discord.
+    everything_else:
+      title: Everything Else
+      description: The community is actively creating a lot of other great assets, like power card boxes, pre-made character sheets, and additional homebrew ideas. You can view the whole lot here.
+attack_title: Attack
+attack_type_title: Attack Type
+attack_types:
+  melee: Melee Attack
+  ranged: Ranged Attack
+  melee_weapon: Melee Weapon Attack
+  ranged_weapon: Ranged Weapon Attack
+  melee_power: Melee Power Attack
+  ranged_power: Ranged Power Attack
+auth:
+  account: Account
+  account_overline: N7 World account
+  back_to_sign_in: Back to sign in
+  callback_failed: Sign-in didn't finish. Try again.
+  code: Verification code
+  code_sent: "We sent a code to {email}."
+  confirm: Confirm
+  email: Email
+  forgot_password: Forgot your password?
+  google: Continue with Google
+  new_password: New password
+  new_here: New here?
+  or: or
+  password: Password
+  password_hint: At least 8 characters
+  profile_saved: Profile saved.
+  profile_title: Profile
+  profile_username: Display name
+  required_text: Sign in with your N7 World account (email or Google) to use this page.
+  required_title: Sign in to continue
+  resend_code: Resend code
+  reset_password: Reset password
+  save: Save
+  send_code: Send code
+  sign_in: Sign in
+  sign_out: Sign out
+  sign_up: Create account
+  signed_in_as: "Signed in as {email}"
+  signing_in: Signing you in…
+  errors:
+    code_expired: That code has expired. Send a new one.
+    code_mismatch: That code is wrong. Check the email and try again.
+    too_many: Too many attempts. Wait a few minutes and try again.
+    unknown: "Something went wrong: {message}"
+    user_exists: An account with this email already exists. Sign in instead.
+    weak_password: Passwords need at least 8 characters.
+    wrong_password: Incorrect email or password.
+background_title: Background | Backgrounds
+background_intro:
+  - The sample backgrounds presented here provide both concrete benefits (features, proficiencies, and languages) and roleplaying suggestions.
+benefits:
+  balanced: Balanced
+  paragon: Paragon
+  prereq_min: "{side} ≥ {min}"
+  prereq_min_over: "{side} ≥ {min} and {side} ≥ {other}"
+  prereq_within: Paragon = (Renegade ± {within})
+  renegade: Renegade
+  threshold: Threshold
+benefits_title: Reputation Benefits
+bestiary_title: Bestiary | Bestiary
+bookmarks_title: Bookmarks
+bookmarks:
+  bookmarked: Bookmarked
+  empty_text: Bookmark a power, weapon, creature or any other record from its page, and it shows up here.
+  empty_title: No bookmarks yet
+  headline: Your records
+  index_failed: Record names couldn't load; bookmarks show their ids.
+  load_failed: Your bookmarks couldn't load.
+  local_text: These bookmarks are kept in this browser. Sign in to keep them on your account and see them on every device.
+  local_title: Saved in this browser
+  missing: No longer exists
+  remove: "Remove {name} from bookmarks"
+  retry: Retry
+  save_failed: The bookmark couldn't be saved. Try again.
+  groups:
+    armor: Armor
+    backgrounds: Backgrounds
+    bestiary: Bestiary
+    classes: Classes
+    conditions: Conditions
+    feats: Feats
+    gear: Gear
+    genpc: Generated NPCs
+    homebrew: Homebrew
+    mods: Mods
+    powers: Powers
+    species: Species
+    tool-profs: Tool Proficiencies
+    vehicles: Vehicles
+    weapons: Weapons
+bonus_formulas:
+  plus: +{bonus}
+  minus: -{bonus}
+builder:
+  title: Character Builder
+  steps: Builder steps
+  step:
+    species: Species
+    class: Class
+    abilities: Abilities
+    background: Background
+    powers: Powers
+    equipment: Equipment
+    details: Details
+  view_sheet: View Sheet
+  done: Done
+  selected: Selected
+  keep: "Keep {name}"
+  not_yours: This character isn't yours to edit.
+  missing: "{n} to pick"
+  no_options: Nothing to pick from here.
+  stale_title: "No longer used: {n} pick | No longer used: {n} picks"
+  stale_text: These picks belong to a species, class or option the character no longer has.
+  stale_remove: Remove them
+  choice:
+    skill: Choose a skill | Choose {n} skills
+    expertise: Choose a skill for expertise | Choose {n} skills for expertise
+    tool: Choose a tool proficiency | Choose {n} tool proficiencies
+    weapon: Choose a weapon proficiency | Choose {n} weapon proficiencies
+    asi: Increase your ability scores
+    powercasting: Choose your powercasting ability
+    advancements: Choose a power advancement | Choose {n} power advancements
+    model: Choose one | Choose {n}
+  species:
+    search: Search species
+    tashas: Customize your origin
+    tashas_text: Move the species' ability score increases to abilities of your choice.
+    variants: Variant
+    base: Standard
+    change: Change species
+    more: "More about {name}"
+    options: "{n} option | {n} options"
+  class:
+    choose: Choose a class
+    multiclass: Add another class
+    add_named: "Add {name}"
+    hit_die: "Hit die d{n}"
+    remove: "Remove {name}"
+    milestone: Milestone leveling
+    total_level: "Character level {n}"
+    subclass_at: "Available at level {n}"
+    asi: Ability increase
+    feat: Feat
+    rolled: Rolled hit points
+    hp_at: "Hit points at level {n}"
+  abilities:
+    standard: Standard array
+    buy: Point buy
+    manual: Manual
+    points: "{n} of {max} points left"
+    standard_text: "Give each ability one of {values}."
+    pick: Pick
+    ability: Ability
+    base: Base
+    class: Class & feats
+    other: Other
+    total: Total
+  background:
+    change: Change background
+    choices: "{n} choice | {n} choices"
+  details:
+    image: Image link
+    image_hint: An https address
+buttons:
+  add_bookmark: Bookmark
+  back_to_changelog: Back To Changelog
+  bug: Report Bug
+  change_species: Switch Species
+  close: Close
+  enter_search: Enter a search term
+  filter: Filter
+  go_to: Jump To
+  join_community: Join the Community
+  no_results: No results found
+  read_more: Read More
+  remove_bookmark: Remove Bookmark
+  search: Search
+  view: View
+  view_details: View Details Page
+  view_rules: View Rules
+cantrip: cantrip
+character:
+  alignment: Alignment
+  personality_traits: Personality Traits
+  ideal: Ideal
+  bond: Bond
+  flaw: Flaw
+  gender: Gender
+  place_of_birth: Place of Birth
+  age: Age
+  height: Height
+  weight: Weight
+  hair: Hair Color & Style
+  eyes: Eye Color
+  skin: Skin Color
+  appearance: Appearance
+  backstory: Backstory
+  name: Name
+characters:
+  title: Characters
+  new: New Character
+  import: Import
+  export: Export
+  export_all: Export All
+  duplicate: Duplicate
+  share: Copy share link
+  delete: Delete
+  cancel: Cancel
+  retry: Try again
+  unnamed: Unnamed character
+  not_started: Not started
+  on_this_device: On this device
+  copy_name: "{name} (copy)"
+  edit_name: "Edit {name}"
+  more: "More for {name}"
+  link_copied: Share link copied. Anyone with it can view this character.
+  local_title: Your characters are kept in this browser
+  local_text: Sign in to keep them in your account, where you can open them on any device and share them. They upload when you sign in.
+  uploaded: "Moved {n} character from this browser to your account. | Moved {n} characters from this browser to your account."
+  upload_limit: "{n} character stayed on this device: your account is at its character limit. | {n} characters stayed on this device: your account is at its character limit."
+  load_failed: Your characters didn't load
+  save_failed: "The character wasn't saved: {message}"
+  delete_failed: "The character wasn't deleted: {message}"
+  delete_title: "Delete {name}?"
+  delete_text: This can't be undone. Export the character first if you might want it back.
+  empty_title: No characters yet
+  empty_text: Build one with the character builder, or import a file.
+  import_title: Import characters
+  import_text: Characters exported from this site or from the old n7.world. Each is saved as a new character; nothing is overwritten.
+  import_choose: Choose a file
+  import_formats: A .json export, of one character or several
+  import_bad_file: "That file can't be imported ({message})."
+  import_no_migrator: This site can't convert old characters.
+  import_wrong_game: "This character is from another game ({game})."
+  import_from: "from version {version}"
+  import_save: Import | Import {n} character | Import {n} characters
+  import_issues:
+    unknown: "{n} content ids no longer exist (kept)"
+    homebrew: "{n} homebrew items (kept; linked once homebrew comes to this site)"
+    renamed: "{n} values renamed"
+    dropped: "{n} values that couldn't be carried over"
+casting_time_title: Casting Time
+change: change
+changelog_title: Changelog
+charges_title: Charges
+choose_subclass: Choose a subclass
+conditions_intro: "All of the conditions which can affect a character or object are listed below. Note that there are a few new conditions in this system in order to maintain consistency with the Mass Effect setting: Frozen, Lifted, Primed"
+conditions_title: Conditions
+character_builder_title: Character Builder
+character_title: Character | Characters
+class_title: Class | Classes
+class_feature_columns:
+  barrier_ticks: Barrier Ticks
+  barrier_uses: Barrier Uses
+  cantrips: Cantrips
+  combat_powers: Combat Powers
+  features: Features
+  power_level: Power Level
+  power_slots_by_power_level: Power Slots by Power Level
+  power_slots: Power Slots
+  powers_known: Powers Known
+  prof_bonus: Proficiency Bonus
+  sneak_attack_damage: Sneak Attack Damage
+  tactical_cloak_uses: Tactical Cloak Uses
+  tech_points: Tech Points
+  tech_point_limit: Tech Point Limit
+class_features_title: Class Features
+concentration_abbr: C
+concentration_title: Concentration
+concentration_text: Concentration, up to {time}
+cost_title: Cost
+cr_title: CR
+credits: no credits | credit | {n} credits
+damage: damage
+damage_title: Damage
+damage_effect_title: Damage/Effect
+damage_types:
+  acid: acid
+  bludgeoning: bludgeoning
+  cold: cold
+  fire: fire
+  force: force
+  lightning: lightning
+  necrotic: necrotic
+  piercing: piercing
+  poison: poison
+  psychic: psychic
+  radiant: radiant
+  slashing: slashing
+  thunder: thunder
+  acid_title: "@.capitalize:damage_types.acid"
+  bludgeoning_title: "@.capitalize:damage_types.bludgeoning"
+  cold_title: "@.capitalize:damage_types.cold"
+  fire_title: "@.capitalize:damage_types.fire"
+  force_title: "@.capitalize:damage_types.force"
+  lightning_title: "@.capitalize:damage_types.lightning"
+  necrotic_title: "@.capitalize:damage_types.necrotic"
+  piercing_title: "@.capitalize:damage_types.piercing"
+  poison_title: "@.capitalize:damage_types.poison"
+  psychic_title: "@.capitalize:damage_types.psychic"
+  radiant_title: "@.capitalize:damage_types.radiant"
+  slashing_title: "@.capitalize:damage_types.slashing"
+  thunder_title: "@.capitalize:damage_types.thunder"
+  acid_damage: "@:damage_types.acid @:damage"
+  bludgeoning_damage: "@:damage_types.bludgeoning @:damage"
+  cold_damage: "@:damage_types.cold @:damage"
+  fire_damage: "@:damage_types.fire @:damage"
+  force_damage: "@:damage_types.force @:damage"
+  lightning_damage: "@:damage_types.lightning @:damage"
+  necrotic_damage: "@:damage_types.necrotic @:damage"
+  piercing_damage: "@:damage_types.piercing @:damage"
+  poison_damage: "@:damage_types.poison @:damage"
+  psychic_damage: "@:damage_types.psychic @:damage"
+  radiant_damage: "@:damage_types.radiant @:damage"
+  slashing_damage: "@:damage_types.slashing @:damage"
+  thunder_damage: "@:damage_types.thunder @:damage"
+detonates_title: Detonates
+dice: "{dieCount}d{dieType}"
+dice_average: "{avg} ({formula})"
+dice_formulas:
+  plus: "{dice} + {n}"
+  minus: "{dice} - {n}"
+  base: "{dice}"
+digit_separator: ","
+duration_title: Duration
+equipment_title: Equipment | Equipment
+expanded_class_options_title: Expanded Class Options
+faction_title: Faction
+feat_title: Feat | Feats
+feat_intro:
+  - A feat represents a talent or an area of expertise that gives a character special capabilities. It embodies training, experience, and abilities beyond what a class provides. Mass Effect 5e uses a number of feats in the Player's Manual, providing page numbers for reference.
+  - At certain levels, your class gives you the Ability Score Improvement feature. Using the optional feats rule, you can forgo taking that feature to take a feat of your choice instead. You can take each feat only once, unless the feat’s description says otherwise.
+  - You must meet any prerequisite specified in a feat to take that feat. If you ever lose a feat’s prerequisite, you can’t use that feat until you regain the prerequisite.
+for_title: For
+galaxies:
+  andromeda: Andromeda
+  milky_way: Milky Way
+gear: gear
+gear_title: Gear | Gear
+gear_types:
+  ammo: Ammo
+  artisan: Artisan
+  device: Device
+  gaming_set: Gaming Set
+  grenade: Grenade
+  heavy_weapon: Heavy Weapon
+  instrument: Instrument
+  medi_gel: Medi-gel
+  omni_gel: Omni-gel
+  omni_tool_program: Omni-tool Program
+  shield: Shield
+  tool: Tool
+generators_title: Generators
+homebrew:
+  accept: I accept the
+  action_failed: That didn't work. Try again.
+  add_advancement: Add advancement
+  add_damage: Add damage
+  add_effect: Add effect
+  adds: adds
+  advanced_effect: Advanced effect (kept as is)
+  anonymous: anonymous
+  badge: Homebrew
+  based_on: Start from
+  based_on_help: Copy an official record's stats and text, then change what you like. Other players' homebrew can't be copied.
+  browse: Browse homebrew
+  by: "by {name}"
+  clear: Clear
+  collection: My Collection
+  collection_help: Homebrew in your collection shows up in the character builder and on your sheets. A character keeps its copy of a homebrew record even after you remove it here.
+  collection_missing: "{n} homebrew records in your collection are no longer shared by their authors."
+  copies_refreshed: "Updated {n} homebrew records on this character to their latest versions."
+  copy_of: "Copy of {name}"
+  create: Create homebrew
+  creations: My Creations
+  creations_help: Homebrew you wrote. Add your own records to your collection to use them on your characters.
+  delete: Delete
+  delete_text: This homebrew will be deleted. This can't be undone.
+  delete_title: "Delete {name}?"
+  delete_used: "{n} players use this homebrew. Their characters keep their copies, marked as removed by its author. This can't be undone."
+  edit: Edit
+  editor_title: Homebrew editor
+  effects_empty: No effects yet. Add what this record does to a character, like a resistance, a bonus or an action.
+  errors: "{n} problems to fix before sharing"
+  fix_errors: Fix the problems marked in the form first.
+  gone_text: "No longer shared by their authors: {names}. This character keeps its copies."
+  gone_title: "{n} homebrew records were removed by their authors"
+  headline: Made by players
+  in_collection: In collection
+  intro: Weapons, armor, gear, mods, powers and feats written by players. Add one to your collection to use it in the character builder and on your sheets, and vote for your favorites.
+  kind: Kind
+  link_copied: Link copied.
+  load_failed: Homebrew couldn't load. Reload the page to try again.
+  make_copy: Make a copy
+  missing_text: It may be private, or its author deleted it.
+  missing_title: Homebrew not found
+  my_title: My Homebrew
+  no_collection: Your collection is empty. Browse homebrew and use what you like.
+  no_creations: You haven't written any homebrew yet.
+  no_name: You have no display name, so you'll show as "anonymous". Set one in your profile.
+  none: None
+  none_found: No homebrew of this kind yet.
+  not_yours_text: You can only edit homebrew you wrote.
+  not_yours_title: Not your homebrew
+  other_errors: Other problems
+  pick_kind: Pick a kind of homebrew to browse.
+  property_value: "Value of {name}"
+  publish: Publish
+  publish_text: Published homebrew is shared with every player, can be voted for, and can't be changed or unpublished, because characters use it. To change it later, make a copy.
+  publish_title: Publish this homebrew?
+  record: Record
+  remove: Remove
+  retry: Retry
+  search: Search by name or author
+  share: Copy link
+  show_development: Show in development
+  stale_copies: "{n} homebrew records no longer used"
+  stale_copies_text: This character keeps copies of homebrew it used. These aren't used anymore.
+  start_blank: Start from scratch
+  title: Homebrew
+  to_development: Share in development
+  unknown_kind: "This site doesn't support {kind} homebrew."
+  unlimited: Unlimited
+  untitled: Untitled homebrew
+  unvote: "Remove your vote for {name}"
+  upcast_bonus: "Bonus at {level}"
+  upcast_cantrip: "From level {level}"
+  upcast_dice: "Dice at {level}"
+  upcast_level: "Cast at level {level}"
+  upcast_no_damage: Add damage on the Attack tab to set how it grows with higher levels.
+  use: Use
+  uses_per: "{n} per {reset}"
+  view: View
+  vote: "Vote for {name}"
+  vote_short: Vote
+  voted: Voted
+  votes: votes
+  yes: "Yes"
+  advantage:
+    advantage: Advantage
+    bonus: A bonus
+    die-bonus: An extra die
+    disadvantage: Disadvantage
+  attack_model:
+    power: Powers
+    weapon: Weapons
+  attack_type:
+    melee: Melee
+    none: No attack roll
+    ranged: Ranged
+  augment:
+    damage: Damage
+    dc: Save DC
+    hit: Attack rolls
+  coverage:
+    piece: One piece (head, chest, arms or legs)
+    suit: A full suit
+  dice:
+    d4: d4
+    d6: d6
+    d8: d8
+    d10: d10
+    d12: d12
+  effect_groups:
+    abilities: Abilities
+    attacks: Attacks
+    cards: Actions
+    defenses: Defenses
+    equipment: Equipment
+    movement: Movement and senses
+    proficiencies: Proficiencies and bonuses
+  effects:
+    action:
+      help: An action the character can take, with its own text, uses, attack, save and damage.
+      title: Action
+    ac:
+      bonus: Bonus
+      help: Adds to Armor Class.
+      limit: Only with armor of type
+      title: Armor Class bonus
+    adjust-weapon-props:
+      add: Add properties
+      help: Changes the properties of the character's weapons.
+      remove: Remove properties
+      title: Weapon properties
+    asi:
+      ability: Ability
+      amount: Increase
+      help: Raises an ability score.
+      title: Ability score increase
+    attack-augment:
+      add_damage: Extra damage on a hit
+      ask: Only when (asked when rolling)
+      ask_help: A question the roll dialog asks, like "Is the target marked?". Leave empty to always apply.
+      augment_types: Adds to
+      bonus: Bonus
+      help: A bonus to attacks or save DCs, for weapons, powers or both.
+      model: Attacks with
+      title: Attack bonus
+      type: Melee or ranged
+    bonus-action:
+      help: A bonus action, with its own text, uses, attack, save and damage.
+      title: Bonus action
+    condition-immunity:
+      help: The character can't get a condition.
+      title: Condition immunity
+      value: Condition
+    critical-immunity:
+      help: A critical hit against the character is a normal hit.
+      title: Critical hit immunity
+    evasion:
+      help: Dexterity saves for half damage take none on a success and half on a failure.
+      title: Evasion
+    hp:
+      bonus: Extra hit points
+      help: Adds to maximum hit points.
+      title: Hit point bonus
+    immunity:
+      help: The character takes no damage of a type.
+      title: Damage immunity
+      value: Damage type
+    initiative:
+      bonus: Bonus
+      help: Adds to initiative.
+      title: Initiative bonus
+    me_grenade-capacity:
+      help: Grenades the character can carry ready.
+      title: Grenade capacity
+      value: Extra grenades
+    me_medi-gel-capacity:
+      help: Medi-gel the character can carry.
+      title: Medi-gel capacity
+      value: Extra medi-gel
+    me_shields:
+      capacity: Shield points
+      help: Adds shield points and shield regeneration.
+      regen: Shield regen
+      title: Shields
+    me_shoulder-mounts:
+      help: Shoulder mounts that hold weapons.
+      max: Mounts
+      slots: Weapon slots each
+      title: Shoulder mounts
+    me_thermal-clip-capacity:
+      help: Thermal clips the character can carry.
+      title: Thermal clip capacity
+      value: Extra thermal clips
+    me_weapon-heat-increase:
+      help: Raises the heat of the character's weapons.
+      title: Weapon heat
+      value: Extra heat
+    other:
+      help: Anything else the character can use, with its own text and uses.
+      title: Other ability
+    reaction:
+      help: A reaction, with its own text, uses, attack, save and damage.
+      title: Reaction
+    resistance:
+      help: The character takes half damage of a type.
+      title: Damage resistance
+      value: Damage type
+    saving-throw:
+      bonus: Bonus
+      effect: Effect
+      effect_help: Leave empty for proficiency in these saves.
+      help: Proficiency, advantage or a bonus on saving throws.
+      title: Saving throws
+      value: Saves
+    sense:
+      distance: Range (ft)
+      help: Darkvision, blindsight and other senses.
+      sense: Sense
+      title: Sense
+    skill:
+      expertise: Expertise
+      help: Proficiency (or expertise) in a skill.
+      title: Skill proficiency
+      value: Skill
+    skill-check:
+      bonus: Bonus
+      effect: Effect
+      help: Advantage, disadvantage or a bonus on skill checks.
+      title: Skill checks
+      value: Skills
+    speed:
+      distance: Speed (ft)
+      help: A new kind of speed, like flying or swimming.
+      speed: Speed
+      title: Speed
+    speed-bonus:
+      bonus: Bonus (ft)
+      help: Raises speeds.
+      title: Speed bonus
+      value: Speeds
+    vulnerability:
+      help: The character takes double damage of a type.
+      title: Damage vulnerability
+      value: Damage type
+  fields:
+    additional_damage: Extra damage
+    advancements: Advancements
+    advancements_help: Upgrades a player can pick for this power, each with its own text.
+    andromeda: Andromeda
+    aoe_size: Area size (ft)
+    aoe_type: Area shape
+    armor_type: Armor type
+    attack: Attack roll
+    availability: Fits
+    base_ac: Base AC
+    body: Description
+    body_help: "Markdown. Write distances with the distance component (:distance{'{'}length=30{'}'}) so they show in each player's units, and conditions with the condition component (:condition{'{'}id=primed{'}'})."
+    casting_time: Casting time
+    classes: Classes
+    concentration: Concentration
+    conditions: Conditions it causes
+    consumable: Consumable
+    cost: Cost (credits)
+    coverage: Coverage
+    damage: Damage
+    damage_bonus: Damage bonus
+    damage_type: Damage type
+    detonates: Detonates
+    die_count: Dice
+    die_type: Die
+    duration_length: Duration
+    duration_unit: Duration unit
+    effects: Effects
+    effects_help: What this record does to a character. Each effect is a small form; the preview shows the result.
+    equippable: Equippable
+    flavor: Flavor text
+    gear_type: Gear type
+    image: Image URL
+    image_help: A link to a picture (PNG, JPEG or WebP).
+    level: Level
+    level_help: 0 for a cantrip.
+    mod_type: Mod for
+    name: Name
+    note: Note
+    placement: Placement
+    power_type: Power type
+    prerequisite: Prerequisite
+    prerequisite_help: Shown with the feat, like "Dexterity 13 or higher".
+    primes: Primes
+    primes_help: The damage type this power primes a target with.
+    properties: Properties
+    properties_help: Heat and other properties that take a value get a box for it.
+    range: Range (ft)
+    range_long: Long range (ft)
+    range_short: Range (ft)
+    rarity: Rarity
+    save: Saving throw
+    short_desc: What it does
+    slot: Slot
+    slots: Weapon slots
+    slots_help: How many weapon slots it takes.
+    stealth_disadvantage: Disadvantage on Stealth
+    tags: Tags
+    upcasts: Higher levels
+    upcasts_help: The damage when cast at higher levels (a cantrip's when the character reaches each tier). Leave a box empty to keep the base value.
+    uses: Uses
+    weapon_type: Weapon type
+    weight: Weight
+  formula:
+    ability: Ability
+    flat: A number
+    level: Character level
+    mod: Ability modifier
+    mod_of: "{ability} modifier"
+    multiplier: Times
+    other: Custom formula (kept)
+    proficiency: Proficiency bonus
+    value: Value
+  healing:
+    hp: Healing
+    temp: Temporary hit points
+  kinds:
+    armor: Armor
+    feats: Feats
+    gear: Gear
+    mods: Mods
+    powers: Powers
+    weapons: Weapons
+  markdown:
+    empty: Nothing written yet.
+    help: Markdown with the site's prose components. HTML isn't allowed.
+    preview: Preview
+    write: Write
+  mod_type:
+    armor: Armor
+    weapon: Weapons
+  preview:
+    added: new
+    changes: What changes
+    level: Level
+    no_changes: Nothing changes on this sample yet.
+    not_placed: This record can't be placed on this sample (a mod needs an item it fits).
+    removed: gone
+    sample: Sample character
+    stale: The latest change can't be computed yet; showing the last result.
+  reset:
+    long: long rest
+    short: short rest
+    title: Comes back after
+  samples:
+    adept: Adept, level 5
+    engineer: Engineer, level 5
+    sentinel: Sentinel, level 5
+    soldier: Soldier, level 5
+  save_state:
+    dirty: Unsaved changes
+    failed: Not saved
+    saved: Saved
+    saving: Saving…
+  sort:
+    adds: Most used
+    name: Name
+    newest: Newest
+    title: Sort by
+    votes: Most votes
+  status:
+    development: In development
+    private: Private
+    published: Published
+  status_help:
+    development: Shared with every player and still changing. Players can use it but not vote for it.
+    private: Only you can find and use it. Share it in development to test it with others, or publish it.
+    published: Shared with every player. Published homebrew can't change; make a copy to work on a new version.
+  status_set:
+    development: Shared in development.
+    published: Published.
+    private: Saved as private.
+  summary:
+    attack: "Attack: {name}"
+    power: "Power: {name}"
+    save: "{ability} save"
+    defense:
+      condition-immunity: Condition immunities
+      immunity: Damage immunities
+      resistance: Resistances
+      vulnerability: Vulnerabilities
+    special:
+      critical-immunity: Critical hit immunity
+      evasion: Evasion
+  tabs:
+    advancements: Advancements
+    attack: Attack
+    basics: Basics
+    casting: Casting
+    description: Description
+    effects: Effects
+    preview: Preview
+    upcasts: Higher levels
+guide:
+  title: Guides
+  creating_armor: Creating Armor
+  creating_encounters: Creating Encounters
+  creating_vehicles: Creating Vehicles
+grenade_name_w_mark: "{name} {mark}"
+heat_title: Heat
+hit_dice_title: Hit Dice
+hit_dice_per_level: "{hitDice} per level"
+hit_points_title: Hit Points
+hit_points_at_first_title: Hit Points at 1st Level
+hit_points_at_first_text: "{die} + {mod} modifier"
+hit_points_at_higher_title: Hit Points at higher levels
+hit_points_at_higher_text: "{die} (or {min}) + {mod} modifier"
+homepage:
+  title: Mass Effect + D&D 5th Edition
+  subtitle: An Unofficial D&D 5th Edition homebrew for Mass Effect
+  get_started: Get Started
+  build_character: Build a Character
+  begin: Begin Your Journey
+  begin_text: Mass Effect 5e lets you take the immersive and cooperative story-telling gameplay of Dungeons & Dragons 5th edition and experience new adventures in the Mass Effect universe. Go exploring in the Outer Terminus. Stop a political assassination on Thessia. Battle the Reaper invasion on Earth, Palavan, or Sur'Kesh. Solve crimes as a C-SEC officer on the Citadel. With Mass Effect 5e, the adventure is in your hands. You can play anywhere in the Mass Effect timeline, create new worlds, or revisit old ones. So, gear up and start making your own journey.
+  play_text: Play with the best tech
+  news: Latest news
+  info:
+    - title: Mix & Match
+      text: Mass Effect 5e lets you mix and match a variety of classic alien races with your favorite Mass Effect class. Wreak havoc on the front lines as a Krogan Shocktrooper. Crush your enemies like a biotic god as a Volus Commando. With 12 races, 6 classes, and 18 specializations, Mass Effect 5e has options to fit any play style.
+    - title: Weapons & Armor
+      text: Magic is just science we don't understand yet, so we've replaced the plethora of magical items found in D&D 5th edition with unique weapons and armor. You'll also find a full modification system for upgrading and customizing your gear.
+    - title: Unique Enemies
+      text: Our bestiary is filled with iconic Mass Effect enemies custom-made using D&D's Dungeon Master Guide to ensure balanced combat. From Reaper forces to Blue Sun grunts, we've got enough monsters to keep your players engaged and challenged.
+  features:
+    - title: Interactive Manual
+      eyebrow: Player's Manual
+      text: Our player's manual is more than a PDF. It's a fully navigable web app that allows you to browse rules, search for items and spells, and create bookmarks for frequently used information.
+      button: Get Started
+    - title: At-the-table Assets
+      eyebrow: Assets
+      text: We offer a few at-the-table assets like custom-made character sheets, printable spell cards, and Roll20 tokens.
+      button: View
+    - title: Contributors Welcome!
+      eyebrow: Community
+      text: Want to get involved? We're always open to content suggestions, feedback, and ideas from the community. Come join the conversation!
+      button: Collaborate
+legal:
+  acceptable_use: Acceptable Use Policy
+  cookies: Cookie Policy
+  privacy: Privacy Policy
+  terms: Terms of Service
+level: level
+level_title: Level | Levels
+level_nth: "{nth} level"
+level_adj: "{nth}-level"
+license_title: License
+lists:
+  comma_list:
+    - "@:none"
+    - "{0}"
+    - "{0}, {1}"
+    - "{0}, {1}, {2}"
+    - "{0}, {1}, {2}, {3}"
+    - "{0}, {1}, {2}, {3}, {4}"
+    - "{0}, {1}, {2}, {3}, {4}, {5}"
+    - "{0}, {1}, {2}, {3}, {4}, {5}, {6}"
+    - "{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}"
+    - "{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}"
+    - "{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}"
+    - "{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}, {10}"
+    - "{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}, {10}, {11}"
+  and_list:
+    - "@:none"
+    - "{0}"
+    - "{0} and {1}"
+    - "{0}, {1}, and {2}"
+    - "{0}, {1}, {2}, and {3}"
+    - "{0}, {1}, {2}, {3}, and {4}"
+    - "{0}, {1}, {2}, {3}, {4}, and {5}"
+    - "{0}, {1}, {2}, {3}, {4}, {5}, and {6}"
+    - "{0}, {1}, {2}, {3}, {4}, {5}, {6}, and {7}"
+    - "{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, and {8}"
+    - "{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, and {9}"
+    - "{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}, and {10}"
+    - "{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}, {10}, and {11}"
+  or_list:
+    - "@:none"
+    - "{0}"
+    - "{0} or {1}"
+    - "{0}, {1}, or {2}"
+    - "{0}, {1}, {2}, or {3}"
+    - "{0}, {1}, {2}, {3}, or {4}"
+    - "{0}, {1}, {2}, {3}, {4}, or {5}"
+    - "{0}, {1}, {2}, {3}, {4}, {5}, or {6}"
+    - "{0}, {1}, {2}, {3}, {4}, {5}, {6}, or {7}"
+    - "{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, or {8}"
+    - "{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, or {9}"
+    - "{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}, or {10}"
+    - "{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}, {10}, or {11}"
+  sentences:
+    - "@:none"
+    - "{0}."
+    - "{0}. {1}."
+    - "{0}. {1}. {2}."
+    - "{0}. {1}. {2}. {3}."
+    - "{0}. {1}. {2}. {3}. {4}."
+    - "{0}. {1}. {2}. {3}. {4}. {5 }."
+    - "{0}. {1}. {2}. {3}. {4}. {5}. {6 }."
+    - "{0}. {1}. {2}. {3}. {4}. {5}. {6}. {7 }."
+    - "{0}. {1}. {2}. {3}. {4}. {5}. {6}. {7}. {8 }."
+    - "{0}. {1}. {2}. {3}. {4}. {5}. {6}. {7}. {8}. {9 }."
+    - "{0}. {1}. {2}. {3}. {4}. {5}. {6}. {7}. {8}. {9}. {10 }."
+    - "{0}. {1}. {2}. {3}. {4}. {5}. {6}. {7}. {8}. {9}. {10}. {11 }."
+  short_comma_list:
+    - "@:none"
+    - "{0}"
+    - "{0}, {1}"
+    - "{0}, {1}, {2}"
+  short_or_list:
+    - "@:none"
+    - "{0}"
+    - "{0} or {1}"
+    - "{0} or {1} or {2}"
+  short_and_list:
+    - "@:none"
+    - "{0}"
+    - "{0} and {1}"
+    - "{0} and {1} and {2}"
+loot:
+  intro: "The loot generator rolls on a set of loot tables to decide rewards. Individual rewards are credits only; weapons, armor, mods and gear come from hoards."
+  meta: "A random loot generator for Mass Effect 5e: credits, consumables and equipment by challenge rating."
+  options_title: "Options"
+  band: "Challenge rating"
+  hoard: "Hoard"
+  generate: "Generate loot"
+  clear: "Clear all loot"
+  raw_tables: "Raw tables"
+  raw_tables_title: "Raw loot tables"
+  individual_title: "Individual rewards"
+  hoard_title: "Hoard rewards"
+  equipment_title: "Equipment tables"
+  band_title: "CR {band}"
+  credits: "Credits"
+  additional_credits: "Additional credits"
+  consumables: "Consumables"
+  reward_title: "Reward {n}"
+  remove: "Remove reward {n}"
+  log_show: "Show the rolls"
+  log_hide: "Hide the rolls"
+  empty: "Choose a challenge rating and generate loot. Each roll adds a reward card."
+  load_failed: "The loot tables couldn't load."
+  retry: "Retry"
+  headers:
+    cr: "CR"
+    reward: "Reward"
+    d100: "d100"
+    hoard_roll: "Equipment table roll"
+    result: "Result"
+  nothing: "Nothing more"
+  roll_once: "Roll once on {table}"
+  roll_times: "Roll {times} times on {table}"
+  row_item: "1 {rarity} {kind}"
+  row_consumable: "{dice} {name}"
+  kinds:
+    weapons: "weapon"
+    armor: "armor"
+    mods: "mod"
+    gear: "gear"
+  log:
+    base_credits: "Base credits"
+    random_credits: "Rolling for random credits between {min} and {max}"
+    credits: "{n} credits"
+    hoard_roll: "Rolling d100 for loot"
+    roll_result: "{roll}: {text}"
+    times_roll: "Rolling {dice} for the number of rolls"
+    table_roll: "Roll {n}: rolling d100 on {table}"
+    item_roll: "Rolling for 1 random {rarity} {kind}"
+    item_none: "No {rarity} {kind} to choose from"
+    consumable_roll: "Rolling {dice}"
+    consumable_result: "{rolls} = {n} {name}"
+    missing_table: "Table {table} doesn't exist"
+    no_row: "nothing on this roll"
+loot_generator_title: Loot Generator
+manual:
+  title: Player's Manual
+  about_bestiary: About the Bestiary
+  beyond_first_level: Beyond 1st Level
+  combat: Combat
+  character_builder: Character Builder
+  character_creation: Step-By-Step Characters
+  equipment: Equipment
+  finances: Finances
+  intro: Introduction
+  missions: Missions
+  powercasting: Powercasting
+  using_ability_scores: Using Ability Scores
+  vehicles: Vehicles
+markdown_label: "{label}:"
+marks:
+  i: I
+  ii: II
+  iii: III
+  iv: IV
+  v: V
+  vi: VI
+  vii: VII
+  viii: VIII
+  ix: IX
+  x: X
+measurements:
+  lb:
+    full: pounds | pound | {n} pounds
+    abbr: lbs | lb | {n} lbs
+  ft:
+    full: feet | foot | {n} feet
+    abbr: ft
+  cm:
+    full: centimeters | centimeter | {n} centimeters
+    abbr: cm
+  m:
+    full: meters | meter | {n} meters
+    abbr: m
+  kg:
+    full: kilograms | kilogram | {n} kilograms
+    abbr: kgs | kg | {n} kgs
+  ftlu:
+    full: faster than light units
+    abbr: ftlu
+mechanics:
+  asi_choice_any: +{amount} to one ability score of your choice | +{amount} to {number} different ability scores of your choice
+  asi_choice_limit: +{amount} to your choice of {abilities} | +{amount} to {number} of {abilities}
+  expertise: expertise
+  falling_damage: falling damage
+  immunities_title: Immunities
+  options: no options | {n} option | {n} options
+  skill_choice_any: one skill of your choice | {number} skills of your choice
+  skill_choice_limit: "{number} of {skills}"
+  speed_note: Your base {type} speed is {distance} ({note}).
+meta:
+  about: Learn more about the Mass Effect 5e creators and contributors.
+  armor: These pre-made armor pieces are available as mass produced alternatives to custom modding.
+  assets: Mass Effect 5e is more than a rule set. We have also created character sheets, spell cards, and other great tabletop assets.
+  backgrounds: Backgrounds provide additional flavor and benefits to your character.
+  benefits: Information about Paragon and Renegade benefits
+  bestiary: Give your player's a unique challenge with over 100 custom made Mass Effect enemies!
+  bookmarks: Keep your favorite weapons, enemies, and spells close at hand with our nifty bookmark tool.
+  changelog: Keep up-to-date with all the Mass Effect 5e system rule additions and updates.
+  class_info: Learn more about the {name} class, including Progression table, subclasses, proficiencies, and starting equipment
+  classes: Choose your favorite Mass Effect class, each with 3 subclasses to provide variety to the game.
+  conditions: There are new conditions in Mass Effect 5e that add variety to combat.
+  feats: New feats available! Plus a curated list of D&D 5th edition feats.
+  homebrew: Weapons, armor, gear, mods, powers and feats made by players, to use on your characters.
+  gear: Mass Effect 5e gear comprises a number of items, like tools and kits, and special weapons, like grenades, heavy weapons.
+  guide: The Galaxy Masters section has handy tools and guides for expanding your campaign.
+  home: Ever wanted to play D&D in the Mass Effect Universe? Mass Effect 5e has you covered.
+  info: Information about {name}.
+  manual: Want to play D&D in the Mass Effect Universe? This manual has everything you need!
+  mods: Mass Effect 5e comes with a full set of armor and weapon mods that let you customize your gear to your needs.
+  npc_generator: Generate random monster and NPC stats for easier encounter building
+  powers: Dozens of unique and re-skinned D&D spells are available as Biotic, Tech, and Combat powers
+  random_height_weight: Create random heights and weights for your Mass Effect 5e Operative
+  skills: Mass Effect 5e comes with a few futuristic skill options!
+  species: Every species you need for a deeply involved Mass Effect Campaign.
+  tool_profs: Tools Proficiencies provide additional benefits when combined with certain skills.
+  vehicles: A list of unique vehicles to use in your Mass Effect 5e game.
+  weapon_props: Mass Effect 5e comes with some new and fun weapon properties!
+  weapons: The Mass Effect 5e arsenal has over 80 unique weapons designed to match the game's weaponry
+military: military
+migration:
+  details: Details
+  done: "Characters: {characters}. Bookmarks: {bookmarks}. Homebrew: {homebrew}. | Characters: {characters}. Bookmarks: {bookmarks}. Homebrew: {homebrew}."
+  done_title: Your data from the old site is here
+  download: Download the original
+  download_failed: The original couldn't be downloaded. Try again later.
+  failed: Your data from the old site couldn't be brought over just now. It's safe; we'll try again the next time you sign in.
+  failed_characters: "{n} character couldn't be brought over. It's kept as it was; download the original to keep a copy, or import it later. | {n} characters couldn't be brought over. They're kept as they were; download the originals to keep a copy, or import them later."
+  limit_raised: "Your character limit is now {n}, so all of your characters fit."
+  local_characters: "Moved {n} character from the old site in this browser. | Moved {n} characters from the old site in this browser."
+  local_failed: "{n} character from the old site in this browser couldn't be moved. | {n} characters from the old site in this browser couldn't be moved."
+  private_homebrew: "{n} of your homebrew needs fixing before it can be shared again, so it's private for now: | {n} of your homebrew need fixing before they can be shared again, so they're private for now:"
+  running: Bringing over your data from the old site…
+  summary: "From the old site: {characters} characters, {bookmarks} bookmarks and {homebrew} homebrew."
+  title: From the old site
+  unnamed: Unnamed character
+misc:
+  criminal_specialty: Criminal Specialty
+  assassin: Assassin
+  blackmailer: Blackmailer
+  fence: Fence
+  gambler: Gambler
+  gang_member: Gang Member
+  pickpocket: Pickpocket
+  smuggler: Smuggler
+  thief: Thief
+  artisan_tool: Artisan Tool
+  armorsmith: Armorsmith
+  brewer: Brewer
+  chemist: Chemist
+  cook: Cook
+  mechanic: Mechanic
+  painter: Painter
+  tailor: Tailor
+  weaponsmith: Weaponsmith
+  scholar_field_of_study: Field of Study
+  chemistry: Chemistry
+  astronomy: Astronomy
+  engineering: Engineering
+  physics: Physics
+  computer_science: Computer Science
+  biology: Biology
+  philosophy: Philosophy
+  general_studies: General Studies
+  cybernetic_augmentation: Cybernetic Augmentation
+  muscular: Muscular
+  cerebral: Cerebral
+  visceral: Visceral
+  ocular: Ocular
+  adaptation: Adaptation
+  aquatic: Aquatic
+  desert: Desert
+  frozen: Frozen
+  high_gravity: High-Gravity
+  underground: Underground
+  volcanic: Volcanic
+  zero_gravity: Zero-Gravity
+  select_an_option: Select an option
+  strength: Strength
+  dexterity: Dexterity
+mod_availability_title: Availability
+mod_availabilities:
+  all_armor: All armor
+  all_ranged: All ranged
+  all_melee: All melee
+mod_item_subtitle: "{rarity} {modType}"
+mod_page_title: Armor & Weapon Mods
+mod_placement_title: Placement
+mod_placements:
+  ammo: Ammo
+  arms: Arms
+  barrel: Barrel
+  body: Body
+  chest: Chest
+  grip: Grip
+  head: Head
+  legs: Legs
+  magazine: Magazine
+  strike: Strike
+mod_title: Mod | Mods
+mod_types:
+  armor: Armor Mod
+  weapon: Weapon Mod
+name_title: Name
+new: new
+new_title: New
+none: None
+notes_title: Notes
+npc:
+  generator:
+    intro: "This generator creates disposable NPCs based on the Mass Effect archetypes. Your options are:"
+    option_scale: "Offensive or defensive: offensive NPCs deal more damage per round but have less AC, shields and hit points; defensive ones the opposite."
+    option_focus: "Damage priority: when choosing attacks, the generator tries to make the chosen type (powers, weapons or grenades) the NPC's biggest source of damage."
+    option_grenades: "Grenades: whether the NPC uses grenades."
+    option_traits: "Species traits: whether the NPC gains its species' special traits."
+    traits_note: "The generator's species traits are its own and predate the current species rules. Turn them off if they would confuse your table."
+    show_details: "How it works"
+    hide_details: "Hide details"
+    options_title: "Options"
+    random: "Random"
+    scale: "Offensive or defensive"
+    more_defensive: "More defensive"
+    more_offensive: "More offensive"
+    focus: "Damage priority"
+    focuses:
+      powers: "Powers"
+      weapons: "Weapons"
+      grenades: "Grenades"
+    grenades: "Grenades"
+    traits: "Species traits"
+    generate: "Generate"
+    generated: "Generated NPC"
+    bookmarked: "Bookmarked NPC"
+    empty: "Choose your options, or leave them random, and generate an NPC."
+    bookmark_missing_title: "Bookmark not found"
+    bookmark_missing_text: "This NPC isn't in your bookmarks here. It may have been removed, or bookmarked on another account."
+    load_failed: "The generator couldn't load its data."
+    retry: "Retry"
+  actions_title: Actions
+  at_will: At Will
+  attack_types:
+    melee: Melee Weapon Attack
+    ranged: Ranged Weapon Attack
+  cr_title: Challenge Rating
+  cr_text: "{n} ({xp} xp)"
+  condition_immunities: Condition Immunities
+  damage_immunities: Damage Immunities
+  damage_resistances: Damage Resistances
+  damage_text: "{diceAverage} {damageType}"
+  damage_vulnerabilities: Damage Vulnerabilities
+  faction_title: Faction
+  feature_w_limitation: "{name} ({limitation})"
+  higher_power_level: as a {level_adj} power
+  hit_title: Hit
+  legendary_title: Legendary Actions
+  legendary_cost: Costs {n} Actions
+  miss_title: Miss
+  range_types:
+    reach: reach {range}
+    range: range ({short}/{long})
+  reactions_title: Reactions
+  traits_title: Traits
+  recharges:
+    - None
+    - Recharge {0}
+    - Recharge {0}-{1}
+  rest_recharge:
+    short: Recharges after a Short or Long Rest
+    long: Recharges after a Long Rest
+  save_dc: DC {dc} {ability} saving throw
+  shields_w_regen: "{capacity} (regen {n})"
+  slots: "{n} slot | {n} slots"
+  target_types:
+    one: one target
+    one_organic_grappled: one organic creature
+  to_hit:
+    negative: -{n} to hit
+    positive: +{n} to hit
+  types:
+    organic: Organic
+    synorg: Synth-organic
+    synthetic: Synthetic
+    organic_or_synthetic: Organic or Synthetic
+  unit_types:
+    alien: Alien
+    archetype: Archetype
+    blood_pack: Blood Pack
+    blue_suns: Blue Suns
+    cerberus: Cerberus
+    collector: Collectors
+    eclipse: Eclipse
+    geth: Geth
+    kett: Kett
+    mech: Mech
+    n_7: N7
+    rachni: Rachni
+    reaper: Reaper
+    thorian: Thorian
+    tracker: Tracker Beast
+  uses: 0 uses | {n} use | {n} uses
+  uses_per_day: "{amount}/Day"
+  uses_per_turn: "{amount}/Turn"
+npc_title: Npc | Npcs
+npc_generator_title: NPC Generator
+ordinal_numbers:
+  - "0"
+  - 1st
+  - 2nd
+  - 3rd
+  - 4th
+  - 5th
+  - 6th
+  - 7th
+  - 8th
+  - 9th
+  - 10th
+  - 11th
+  - 12th
+  - 13th
+  - 14th
+  - 15th
+  - 16th
+  - 17th
+  - 18th
+  - 19th
+  - 20th
+number_range: "{0}-{1}"
+passive_perception_title: Passive Perception
+phb: PHB
+point: no points | {n} point | {n} points
+power_title: Power | Powers
+power_types:
+  biotic: Biotic
+  tech: Tech
+  combat: Combat
+prerequisite_title: Prerequisite
+primary_ability_title: Primary Ability
+primes_detonates_title: Primes/Detonates
+power_damage_by_slot: Damage by slot level
+power_slot_title: Slot
+power_primer_title: Primer
+power_primer_text: "{name} primes its target ({type}). A later power or attack that detonates ends the primed condition with an explosive effect. See {link}."
+power_detonator_title: Detonator
+power_detonator_text: "{name} detonates primed targets: the primed condition ends with an explosive effect. See {link}."
+power_primers_link: Primers and Detonators
+primes_text: Primes ({type})
+profile:
+  account: Account
+  discard: Discard changes
+  load_failed: Your profile couldn't load. Reload the page to try again.
+  name_help: Shown as the author of homebrew you publish. 2 to 32 characters.
+  name_length: Display names are 2 to 32 characters.
+  preferences: Preferences
+  preferences_help: Saved to your account and applied when you sign in on another device.
+  color:
+    dark: Dark
+    light: Light
+    system: Match device
+    title: Color mode
+  picture:
+    alt: Your profile picture
+    failed: The picture couldn't be saved. Try another image.
+    remove: Remove picture
+    too_big: That file is over 10 MB. Pick a smaller image.
+    upload: Upload picture
+    wrong_type: Pick a PNG, JPEG, WebP, GIF or AVIF image.
+  units:
+    imperial: Feet and miles
+    metric: Meters and kilometers
+    title: Units
+  webhooks:
+    add: Add webhook
+    characters: Posts rolls for
+    characters_help: You can also turn a webhook on from a character sheet's Preferences.
+    delete: Delete webhook
+    footer: N7 World
+    gone: This Discord webhook no longer works. Check it in Discord, or delete it here.
+    help: Post a character's rolls to a Discord channel. In Discord, open Server Settings › Integrations › Webhooks, create one and copy its URL.
+    limit: "You can have {n} webhooks"
+    name: Name
+    name_placeholder: "Webhook {n}"
+    no_characters: No characters yet
+    test: Send test
+    test_failed: The test message couldn't be sent. Check the URL.
+    test_label: Test from N7 World
+    test_sent: Test message sent. Check your Discord channel.
+    title: Discord webhooks
+    unknown_character: Deleted character
+    url: Webhook URL
+    url_hint: Kept private to you
+    url_invalid: That isn't a Discord webhook URL (https://discord.com/api/webhooks/…).
+    url_required: Paste the webhook's URL.
+proficiencies_title: Proficiencies
+progression_table_title: Progression Table
+random_height_weight_title: Random Height & Weight
+random_hw_titles:
+  calc_height_title: Calculating Random Height
+  calc_height: Base Height + Height Modifier Roll
+  calc_weight_title: Calculating Random Weight
+  calc_weight: Base Weight + (Height Modifier Roll x Weight Modifier Roll)
+  base_height: Base Height
+  base_weight: Base Weight
+  height: Height
+  height_mod: Height Modifier
+  roll: Roll
+  weight: Weight
+  weight_mod: Weight Modifier
+  length: Length
+range_title: Range
+range_area_title: Range (Area)
+rarities:
+  varies: Varies
+  common: Common
+  uncommon: Uncommon
+  rare: Rare
+  very_rare: Very Rare
+  spectre: Spectre
+rarity_title: Rarity
+regen: regen
+rules_title: Rules
+saving_throws_title: Saving Throws
+saves_title: Saves
+save_text: "{type} Save"
+search: Search
+self_title: Self
+senses_title: Senses
+senses:
+  darkvision: darkvision
+  darkvision_title: Darkvision
+  infrared_vision: infrared vision
+  infrared_vision_title: Infrared Vision
+  truesight: truesight
+  truesight_title: Truesight
+  blindsight: blindsight
+  blindsight_title: Blindsight
+  tremorsense: tremorsense
+  tremorsense_title: Tremorsense
+set_bonus: Set Bonus
+set_bonus_range: "({min} of {max}):"
+settings:
+  label: Settings
+  dark: Dark
+  light: Light
+  imperial: Imperial
+  metric: Metric
+  units: Units
+  mode: Mode
+  language: Language
+shell:
+  all_results: See all results
+  back_to_top: Back to top
+  sort_by: Sort by
+  sort_ascending: Sort ascending
+  sort_descending: Sort descending
+  count_of: "{n} of {total}"
+  home: Home
+  note: Note
+  not_found: This page doesn't exist.
+  on_this_page: On this page
+  result_count: "{n} result | {n} results"
+  search_button: Search the codex
+  search_description: Search rules, powers, equipment and more
+  search_placeholder: Search Mass Effect 5e…
+  switch_units: Switch between metric and imperial units
+  units_abbr:
+    metric: M
+    imperial: FT
+sheet:
+  title: Character Sheet
+  view_only: You're viewing someone else's character. You can roll, but not change it.
+  missing_title: Character not found
+  missing_text: The link may be wrong, or the character was deleted.
+  load_failed: The character didn't load
+  prose_failed: The text didn't load.
+  prof_abbr: Prof
+  init_abbr: Init
+  insp_abbr: Insp
+  initiative: Initiative
+  inspiration: Inspiration
+  passive: "Passive {skill}"
+  dc: "DC {dc}"
+  proficiency:
+    "0": Not proficient
+    "1": Proficient
+    "2": Expertise
+  menu:
+    title: Character menu
+    edit: Edit in builder
+  mobile:
+    roll: Roll
+    menu: Menu
+    settings: Settings
+  save:
+    saving: Saving…
+    pending: Unsaved changes
+    saved: Saved
+    error: Not saved
+    retry: Retry
+    conflict: Saved elsewhere
+    local: Saved in this browser
+  conflict:
+    title: This character was changed in another tab or on another device
+    text: Your latest change hasn't been saved. Load the newer version, or keep yours and save over it.
+    theirs: Load the newer version
+    mine: Keep mine
+  tabs:
+    label: Sheet sections
+    actions: Actions
+    gear: Gear
+    features: Features
+    details: Details
+  vitals:
+    title: Vitals
+    hp: HP
+    temp_hp: Temp HP
+    shields: Shields
+    tech_armor: Tech Armor
+    barrier: Barrier
+    reduction: damage reduction
+    amount: Amount
+    damage: Take damage
+    heal: Heal
+    more: Damage type
+    damage_mode: Damage
+    mode_normal: Normal damage
+    mode_bypass: "Bypass {pool}"
+    mode_double: "Double damage to {pool}"
+    mode_short_bypass: Bypass shields
+    mode_short_double: 2× to shields
+    add_temp: Add as temp HP
+    add_to: "Add to {pool}"
+    regen_amount: "Regain this much {pool}"
+    regen: "Regen {n}"
+    spend: Spend
+    spend_n: Spend {n}
+    spend_roll: "Spend ({dice})"
+    refill: "Refill {pool}"
+    death_saves: Death saves
+    death_save: Roll death save
+    successes: Successes
+    failures: Failures
+    success_n: "Success {n}"
+    failure_n: "Failure {n}"
+    dead: Dead
+    stable: Stable
+  defenses:
+    title: Defenses
+    kind:
+      resistance: resistance
+      immunity: immunity
+      vulnerability: vulnerability
+      condition-immunity: condition immunity
+      special: special
+    special:
+      critical-immunity: Critical hit immunity
+      evasion: Evasion
+  conditions:
+    edit: Edit conditions
+    immune: Immune
+  actions:
+    empty: No actions yet.
+    extra_attacks: "{n} attacks with the Attack action"
+    powers: Powers
+    sections:
+      attacks: Attacks
+      action: Actions
+      bonus-action: Bonus Actions
+      reaction: Reactions
+      other: Other
+    in_combat:
+      action: Actions in Combat
+      bonus-action: Bonus Actions in Combat
+      reaction: Reactions in Combat
+    special:
+      twf: Two-Weapon Fighting
+      bf: Burst Fire
+      dt: Double Tap
+  toggle:
+    option: "{name} option"
+  resource:
+    per_short: / short rest
+    per_long: / long rest
+    use_n: "Use {n} of {max}"
+    less: One less
+    more: One more
+    reset: Reset
+  powers:
+    cast: Cast
+    cantrips: Cantrips
+    manage: Manage Powers
+    none: No powers yet
+    none_text: Pick powers in the power manager.
+    no_casters: None of this character's classes casts powers.
+    spend_point: Spend a point
+    regain_point: Regain a point
+    limit: "up to {n} per casting"
+    slot_n: "{level} slot {n}"
+    pool:
+      points_tech: Tech Points
+      slots: Power Slots
+    cantrips_known: "Cantrips {n}/{max}"
+    powers_known: "Powers {n}/{max}"
+    max_level: "Up to level {n}"
+    learned_only: Learned only
+    learn: "Learn {name}"
+    from_feature: From a feature
+    not_available: Above your level
+    unlinked: Powers from older versions
+  gear:
+    credits: Credits
+    manage: Manage Equipment
+    none: No equipment yet
+    owned: Owned
+    add: Add
+    add_free: Add
+    buy: Buy
+    sell: "Sell ({n})"
+    remove: Remove
+    equipped: Equipped
+    equip: "Equip {name}"
+    count: Count
+    mods: "{n} mod | {n} mods"
+    mod_slot: "Mod: {slot}"
+    bonus_hit: Attack bonus
+    bonus_damage: Damage bonus
+    credits_left: "{n} credits"
+    set_bonuses: Set Bonuses
+  equip:
+    weapon_slots: "Your weapon slots are full ({max})."
+    programs: "You can install {max} omni-tool programs."
+  features:
+    none: No features yet.
+    groups:
+      feats: Feats
+      benefits: Reputation Benefits
+      powers: Powers
+      species: Species
+      edges: Edges
+      apex_augments: Apex Augments
+      armiger_fuel: Armiger Fuel
+      augment_boosts: Augment Boosts
+      bastion_tactics: Bastion Tactics
+      commands: Commands
+      exalted_lineages: Exalted Lineages
+      fighting_styles: Fighting Styles
+      integrated_weaponry_damage: Integrated Weaponry Damage
+      main_augments: Main Augments
+      maneuvers: Maneuvers
+      metabiotics: Metabiotics
+      premium_genetics: Premium Genetics
+      primal_augments: Primal Augments
+      primers: Primers
+      sneak_toxin: Sneak Toxins
+      subgrounds: Subgrounds
+      supercharged_augments: Supercharged Augments
+      tracker_affinity: Tracker Affinities
+      tracker_affinity_advancement: Affinity Advancements
+      training_regimens: Training Regimens
+      weapon_of_choice: Weapons of Choice
+  details:
+    milestone: Milestone
+    empty: No details yet.
+    edit: Edit details
+  notes:
+    placeholder: Notes, contacts, loot, plans…
+    empty: No notes.
+  profs:
+    tools: Tools
+  log:
+    title: Roll Log
+    text: "The last {n} rolls of this character, kept in this browser."
+    empty: No rolls yet
+    clear: Clear log
+  dice:
+    title: Roll Dice
+    count: Dice
+    custom: Custom roll
+    placeholder: 2d6+3
+    roll: Roll
+  roll:
+    custom: Custom roll
+    damage: Roll damage
+    crit_damage: Roll crit damage
+    crit: Critical hit!
+    fumble: Natural 1
+    advantage: Advantage
+    disadvantage: Disadvantage
+    normal: Normal
+    mode: Roll with
+    questions: This attack
+    dialog_text: Answer for this attack, then roll.
+    adds_hit: "{n} to hit"
+    adds_dc: "{n} to the DC"
+    adds_damage: "+{damage} damage"
+    to_hit: To hit
+    roll_attack: Roll attack
+    roll_damage: Roll damage
+    attack_with: "Attack with {name}"
+    damage_with: "Damage of {name}"
+    check_of: "{ability} check"
+    save_of: "{ability} save"
+    kind:
+      attack: Attack
+      damage: Damage
+      crit_damage: Critical damage
+      check: Check
+      save: Save
+      skill: Skill check
+      initiative: Initiative
+      custom: Roll
+      hit_dice: Hit dice
+      recovery: Recovery
+  rest:
+    short: Short Rest
+    long: Long Rest
+    short_text: Spend hit dice and recover what a short rest restores.
+    long_text: Regain hit points and what a long rest restores.
+    take_short: Take short rest
+    take_long: Take long rest
+    done_short: Short rest taken
+    done_long: Long rest taken
+    hit_dice_left: "{n} of {max} left"
+    hit_dice_of: "Hit dice ({name})"
+    spend_of: "Hit dice to spend ({name})"
+    min_roll: "Each hit die rolls at least {n}."
+    hp_back: "You regain {n} hit points."
+    recovery: Power recovery
+    recovery_budget: "{used} of {max} levels recovered"
+    recover_of: "Recover {name}"
+    used: "{n} used"
+    regain_all: You regain all your hit dice.
+    regain_up_to: "Regain up to {n} hit dice."
+    regain_of: "Hit dice to regain ({name})"
+    reduce_exhaustion: Lose one level of exhaustion
+    reduce_indoctrination: Lose one level of indoctrination (you made the Wisdom save)
+  saves:
+    advantage_against: Advantage against being {list}
+    disadvantage_against: Disadvantage against being {list}
+    advantage_note: Advantage {note}
+    disadvantage_note: Disadvantage {note}
+  settings:
+    title: Settings & Overrides
+    overrides: Overrides
+    preferences: Preferences
+    custom: Custom Features
+    defensive: Defensive
+    offensive: Offensive
+    powercasting: Powercasting ability
+    abilities: Ability scores
+    speeds_senses: Speeds & senses
+    hp_override: Max HP
+    ac_override: AC
+    ac_bonus: AC bonus
+    auto: Auto
+    attack: Attack
+    bonus: Bonus
+    override: Override
+    expertise: Expertise
+    feet: Speeds and senses are in feet.
+    reset: Reset overrides
+    reset_title: Reset every override?
+    reset_text: Clears everything on this tab (typed HP and AC, bonuses, ability score bonuses and overrides, extra proficiencies, defenses, speeds and senses). Preferences and custom features stay.
+    reset_confirm: Reset
+    defense:
+      resistance: Resistances
+      immunity: Immunities
+      vulnerability: Vulnerabilities
+      conditionImmunity: Condition immunities
+    roll_kind:
+      all: All
+      melee: Melee
+      ranged: Ranged
+      power: Powers
+  preferences:
+    armorSpeedPenalty: Armor strength requirement
+    armorSpeedPenalty_text: Heavy armor without the Strength it needs reduces your speed.
+    armorProficiencyPenalty: Armor proficiency penalty
+    armorProficiencyPenalty_text: Armor you aren't proficient with gives disadvantage, then stops powercasting.
+    abilityScoreOnTop: Show ability scores above modifiers
+    weaponSlots: Enforce weapon slots
+    weaponSlots_text: Armor and features give weapon slots. Turn off to equip any number of weapons.
+    grenadeSlots: Enforce grenade slots
+    grenadeSlots_text: Chest and leg armor provide grenade slots. Turn off to equip more grenades, or grenades without armor.
+    medigelSlots: Enforce medi-gel slots
+    medigelSlots_text: Chest and arm armor provide medi-gel slots. Turn off to equip more medi-gel, or medi-gel without armor.
+    thermalClipSlots: Enforce thermal clip slots
+    thermalClips: Track thermal clips
+    thermalClips_text: Reloading a weapon spends a ready thermal clip.
+    programInstall: Limit installed omni-tool programs
+    programInstall_text: You can install three programs at a time.
+    consumeThermalClips: Reloading uses thermal clips
+  custom:
+    text: Features you write yourself. Those with a type show on the Actions tab, with uses if they have any.
+    new: New feature
+    add: Add feature
+    uses: Uses
+    recharge: Recharge
+    description: Description
+    types:
+      action: Action
+      bonus-action: Bonus action
+      reaction: Reaction
+      other: Other
+      feature: Feature
+  companions:
+    add: Add Companion
+    add_action: Add Action
+    add_condition: Add condition
+    aoe: Area
+    aoe_size: Area size (ft)
+    check: "{ability} check"
+    condition_immunities: Condition Immunities
+    damage_bonus: Damage bonus
+    damage_dice: Damage dice
+    damage_die: Die
+    dc: Save DC
+    dc_save: Saving throw
+    delete: Delete Companion
+    delete_confirm: "Delete {name}? This can't be undone."
+    description: Description
+    done: Done
+    edit: "Edit {name}"
+    empty: No companions yet. Add one for a drone, a pet or a squadmate who follows this character.
+    empty_view: This character has no companions.
+    expertise_help: Skills that add twice the proficiency bonus.
+    features: "Features that grant a companion ({n})"
+    feet_help: Distances in feet; the sheet shows them in your units.
+    hit: To hit
+    image: Image URL
+    image_help: A link to a picture (PNG, JPEG or WebP).
+    immunities: Damage Immunities
+    long_range: Long range (ft)
+    max_hp: Hit points
+    max_pool: "{pool}"
+    new_name: New Companion
+    no_conditions: None
+    notes: Notes
+    pool_regen: "{pool} regen"
+    prof_bonus: Proficiency bonus
+    range: Range (ft)
+    regain_one: Regain one use
+    regen: Regen
+    remove_action: Remove action
+    resistances: Damage Resistances
+    resource_checkboxes: Checkboxes
+    resource_counter: Counter
+    resource_heat: Heat tracker
+    roll_label: "{name}: {label}"
+    subtitle: Companion
+    title: Companions
+    type: Type
+    unnamed_action: Unnamed action
+    use_n: "Use {n}"
+    use_one: Spend one use
+    uses: Uses
+    uses_display: Uses shown as
+    uses_max: Uses
+    vulnerabilities: Damage Vulnerabilities
+    tabs:
+      abilities: Abilities & Skills
+      actions: Actions
+      defenses: Defenses
+      movement: Speed & Senses
+      name: Name & Image
+    types:
+      action: Actions
+      attack: Attacks
+      bonus_action: Bonus Actions
+      other: Other
+      reaction: Reactions
+  webhooks:
+    load_failed: Your Discord webhooks couldn't load.
+    manage: Manage webhooks in your profile
+    none: You have no Discord webhooks. Add one in your profile.
+    not_stored: Save this character to your account to post its rolls to Discord.
+    save_failed: The webhook couldn't be changed. Try again.
+    sign_in: Sign in to post this character's rolls to Discord.
+    text: Post this character's rolls to
+  me:
+    reputation: Reputation
+    paragon: Paragon
+    renegade: Renegade
+    benefit_at: "Benefit at {n}"
+    benefit_attention: This benefit's prerequisite no longer holds.
+    choose_benefit: Choose a benefit
+    unavailable: unavailable
+    grenades: Grenades
+    medi_gel: Medi-gel
+    thermal_clips: Thermal clips
+    ready: "Ready one more {name}"
+    unready: "Ready one fewer {name}"
+    shoulder_mounts: "Shoulder mounts {n}/{max}"
+    mount: "Mount {name}"
+    no_mountable: No weapon fits the mounts.
+    fire: Fire
+    reload: Reload
+    use: Use
+    omni_gel: omni-gel
+    shields_override: Shields
+    regen_override: Regen
+    shield_source: Shield source
+sheet_color:
+  title: Sheet color
+  match_class: Match my class
+  match_class_detail: "{class}, first class"
+  alliance: Alliance
+  reset: Reset
+  done: Done
+shields_title: Shields
+shield: no shields | 1 shield | {n} shields
+size_title: Size
+sizes:
+  carrier: carrier
+  cruiser: cruiser
+  dreadnought: dreadnought
+  frigate: frigate
+  tiny: tiny
+  small: small
+  medium: medium
+  large: large
+  huge: huge
+  gargantuan: gargantuan
+skills_title: Skills
+slot: no slots | {n} slot | {n} slots
+species_groups:
+  andromeda: Andromeda
+  expanded: Ancient and Expanded Species
+  lesser_known: Milky Way's Lesser Known Operatives
+  primary: Milky Way
+  villainous: Fringe Species
+species_title: Species | Species
+speed_title: Speed
+speed_trait: Your base {type} speed is {distance}.
+speeds:
+  walk:
+    title: Walking
+    text: walking
+    label: ""
+  fly:
+    title: Flying
+    text: flying
+    label: fly
+  swim:
+    title: Swimming
+    text: swimming
+    label: swim
+  burrow:
+    title: Burrowing
+    text: burrowing
+    label: burrow
+  climb:
+    title: Climbing
+    text: climbing
+    label: climb
+starting_credits: Starting Credits
+starting_equipment_title: Starting Equipment
+starting_equipment_info: "You start with the following equipment, in addition to the equipment granted by your background:"
+starting_wealth_title: Starting Wealth
+string_numbers:
+  - zero
+  - one
+  - two
+  - three
+  - four
+  - five
+  - six
+  - seven
+  - eight
+  - nine
+  - ten
+subclass_title: Subclass | Subclasses
+subclass_feature_titles:
+  adept: Subclass Feature
+  default: Subclass Feature
+  engineer: Subclass Feature
+  infiltrator: Subclass Feature
+  sentinel: Subclass Feature
+  soldier: Subclass Feature
+  tracker: Subclass Feature
+  vanguard: Subclass Feature
+tags_title: Tags
+tags:
+  ability_skill_bonus: Ability/Skill
+  ac: AC
+  additional_heat: Additional Heat
+  attack_bonus: Attack
+  augmentation: Augmentation
+  buff: Buff
+  control: Control
+  damage: Damage
+  damage_augment: Damage Augment
+  damage_reroll: Damage Reroll
+  debuff: Debuff
+  detonates: Detonates
+  extra_damage: Damage
+  heal: Heal
+  ignore_resistance: Ignore Resistance
+  increased_range: Increased Range
+  item_capacity: Capacity
+  melee_attacks: Melee Attacks
+  movement: Movement
+  null_critical: Null Critical
+  primes: Primes
+  power_regen: Power Regen
+  protection: Protection
+  reduced_weight: Reduced Weight
+  resistance: Resistance
+  set_bonus: Set Bonus
+  shield_jumpstart: Shield Jumpstart
+  shield_regen: Shield Regen
+  shields: Shield Capacity
+  special: Special
+  summon: Summon
+  vision: Vision
+times:
+  action_title: Action
+  action_abbr: 1A
+  attack_title: Attack
+  attack_abbr: ATK
+  bonus_action_title: Bonus Action
+  bonus_action_abbr: BA
+  hour: 1 hour | {n} hours
+  hour_title: 1 Hour | {n} Hours
+  hour_abbr: "{n}H"
+  instant: Instant
+  instant_title: Instant
+  instant_abbr: INST
+  minute: 1 minute | {n} minutes
+  minute_title: 1 Minute | {n} Minutes
+  minute_abbr: "{n}M"
+  reaction_title: Reaction *
+  reaction_abbr: R*
+  round: 1 round | {n} rounds
+  round_title: 1 Round | {n} Rounds
+  round_abbr: "{n}RND"
+  turn: 1 turn | {n} turns
+  turn_title: 1 Turn | {n} Turns
+  turn_abbr: "{n}TRN"
+short_title: ME5e
+title: Mass Effect 5e
+tool_prof_types:
+  artisan: Artisan
+  starship: Starship
+tool_profs_title: Tool Proficiencies
+tools_guides_title: Tools & Guides
+touch_title: Touch
+traits_title: Traits
+type_title: Type
+type_level_title: Type/Level
+variants_title: Variants
+varies: varies
+varies_title: Varies
+vehicle_groups:
+  starship: Starships
+  transport: Transports
+vehicle_title: Vehicle | Vehicles
+vehicle_types:
+  starship: Starship
+  transport: Transport
+vehicles:
+  cargo: Cargo Capacity
+  cargo_tonnes: "{n} tonne | {n} tonnes"
+  combined: Combined
+  crew: Crew
+  crew_range: "min: {min}, max: {max}"
+  description: Description
+  hull_points: Hull Points
+  shield_points: Shield Points
+  system_crew: "{n} crew"
+  systems: Systems
+  weapons: Weapons
+version: VERSION
+weapon: weapon
+weapon_item_subtitle: "{rarity} {weaponType}"
+weapon_title: Weapon | Weapons
+weapon_types:
+  assault_rifle: Assault Rifle | Assault Rifles
+  heavy_pistol: Heavy Pistol | Heavy Pistols
+  melee: Melee | Melee
+  smg: SMG | SMGs
+  sniper_rifle: Sniper Rifle | Sniper Rifles
+  shotgun: Shotgun | Shotguns
+weapon_props_title: Weapon Properties
+weight_title: Weight
+xp_title: XP
