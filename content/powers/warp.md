@@ -64,3 +64,5 @@ the target is :condition{id="primed" sub="necrotic"} until the end of your next 
 
 __At Higher Levels__: When you cast this power using a power slot of 3rd level or higher, the damage increases by 2d10 for
 each slot level above the 2nd.
+
+Added by the sandbox test.
